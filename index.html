@@ -5,6 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Drancer – Cricket Stuff</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .video-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .video-wrapper iframe {
+      flex: 1 1 45%;
+      min-width: 300px;
+      height: 315px;
+    }
+    #logo {
+      height: 100px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -25,26 +40,34 @@
   <main>
     <section id="batsmen" class="tab-content active">
       <h2>Batsmen – Technique & Drills</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jMZJ5sXvw6A" frameborder="0" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/kN6Ds6X6Lko" frameborder="0" allowfullscreen></iframe>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/jMZJ5sXvw6A" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/kN6Ds6X6Lko" frameborder="0" allowfullscreen></iframe>
+      </div>
     </section>
 
     <section id="bowlers" class="tab-content">
       <h2>Bowlers – Tips & Drills</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/pv6X6omk1BM" frameborder="0" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/vyHgHZRPcnA" frameborder="0" allowfullscreen></iframe>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/pv6X6omk1BM" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/vyHgHZRPcnA" frameborder="0" allowfullscreen></iframe>
+      </div>
     </section>
 
     <section id="keepers" class="tab-content">
       <h2>Wicketkeepers – Techniques</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/s5ccGhN7DbQ" frameborder="0" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/wEVwbiM4pb4" frameborder="0" allowfullscreen></iframe>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/s5ccGhN7DbQ" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/wEVwbiM4pb4" frameborder="0" allowfullscreen></iframe>
+      </div>
     </section>
 
     <section id="exercises" class="tab-content">
       <h2>Role-Specific Exercises</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/ZdS40ToG4S0" frameborder="0" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Um62wSkqGgM" frameborder="0" allowfullscreen></iframe>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/ZdS40ToG4S0" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/Um62wSkqGgM" frameborder="0" allowfullscreen></iframe>
+      </div>
     </section>
 
     <section id="diet" class="tab-content">
