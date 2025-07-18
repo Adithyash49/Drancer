@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Drancer Cricket Training Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <ul id="menu">
+      <li data-tab="batsmen">Batsmen</li>
+      <li data-tab="bowlers">Bowlers</li>
+      <li data-tab="keepers">Wicketkeepers</li>
+      <li data-tab="exercises">Exercises</li>
+      <li data-tab="diet">Diet Plans</li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="batsmen" class="tab-content active">
+      <h2>Batsmen – Technique & Drills 🎯</h2>
+      <div class="video-card">
+        <video src="videos/batting_tips.mp4" controls></video>
+        <p>Top-class batting videos & drills.</p>
+      </div>
+    </section>
+
+    <section id="bowlers" class="tab-content">
+      <h2>Bowlers – Tips & Drills</h2>
+      <div class="video-card">
+        <video src="videos/bowling_drills.mp4" controls></video>
+        <p>Improve line, length & pace.</p>
+      </div>
+    </section>
+
+    <section id="keepers" class="tab-content">
+      <h2>Wicketkeepers – Work Essentials</h2>
+      <div class="video-card">
+        <video src="videos/keeping_techniques.mp4" controls></video>
+        <p>Mastering catches & footwork.</p>
+      </div>
+    </section>
+
+    <section id="exercises" class="tab-content">
+      <h2>Role-Specific Exercises</h2>
+      <ul>
+        <li>Hand‑eye coordination drills</li>
+        <li>Bowler fitness routines</li>
+        <li>Keeper agility exercises</li>
+      </ul>
+      <video src="videos/exercises_overview.mp4" controls></video>
+    </section>
+
+    <section id="diet" class="tab-content">
+      <h2>Diet Plans – Veg & Non‑Veg</h2>
+      <div class="diet-option">
+        <h3>Vegetarian Plan</h3>
+        <ul>
+          <li>Oats + fruits (breakfast)</li>
+          <li>Paneer, salad, rice (lunch)</li>
+          <li>Protein shake, nuts (snacks)</li>
+          <li>Dal, chapati, veggies (dinner)</li>
+        </ul>
+      </div>
+      <div class="diet-option">
+        <h3>Non‑Vegetarian Plan</h3>
+        <ul>
+          <li>Egg whites & spinach (breakfast)</li>
+          <li>Grilled chicken, rice, veggies (lunch)</li>
+          <li>Yogurt bowl, nuts (snacks)</li>
+          <li>Fish/cottage cheese, salad (dinner)</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
